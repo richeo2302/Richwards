@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/iprally-cost-savings-calculator/static/css/main.f855e6bc.css",
-    "main.js": "/iprally-cost-savings-calculator/static/js/main.93e9db90.js",
-    "static/js/453.fdb0adfa.chunk.js": "/iprally-cost-savings-calculator/static/js/453.fdb0adfa.chunk.js",
-    "static/media/logo.svg": "/iprally-cost-savings-calculator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/iprally-cost-savings-calculator/index.html",
-    "main.f855e6bc.css.map": "/iprally-cost-savings-calculator/static/css/main.f855e6bc.css.map",
-    "main.93e9db90.js.map": "/iprally-cost-savings-calculator/static/js/main.93e9db90.js.map",
-    "453.fdb0adfa.chunk.js.map": "/iprally-cost-savings-calculator/static/js/453.fdb0adfa.chunk.js.map"
+    "main.css": "/Richwards/static/css/main.f855e6bc.css",
+    "main.js": "/Richwards/static/js/main.5b7ce368.js",
+    "static/js/453.fdb0adfa.chunk.js": "/Richwards/static/js/453.fdb0adfa.chunk.js",
+    "static/media/logo.svg": "/Richwards/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Richwards/index.html",
+    "main.f855e6bc.css.map": "/Richwards/static/css/main.f855e6bc.css.map",
+    "main.5b7ce368.js.map": "/Richwards/static/js/main.5b7ce368.js.map",
+    "453.fdb0adfa.chunk.js.map": "/Richwards/static/js/453.fdb0adfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.93e9db90.js"
+    "static/js/main.5b7ce368.js"
   ]
 }
