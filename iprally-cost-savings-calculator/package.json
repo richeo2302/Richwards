@@ -12,6 +12,9 @@
     "web-vitals": "^2.1.4",
     "gh-pages": "^5.0.0"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://{riche2302}.github.io/{Richwards}",
+  "homepage": "https://richeo2302.github.io/Richwards",
   "eslintConfig": {
     "extends": [
       "react-app",
