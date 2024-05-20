@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ValueAssessmentTool from './ValueAssessmentTool';
+import ValueAssessmentTool from './components/ValueAssessmentTool';
 
 function App() {
   return (
@@ -25,5 +25,3 @@ function App() {
 }
 
 export default App;
-
-

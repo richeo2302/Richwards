@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Sample data for results calculation
 const initialData = {
   companyType: '',
   roleInCompany: '',
@@ -13,7 +12,7 @@ const initialData = {
   currentPerformance: '',
 };
 
-function App() {
+function ValueAssessmentTool() {
   const [formData, setFormData] = useState(initialData);
   const [results, setResults] = useState(null);
 
@@ -28,11 +27,10 @@ function App() {
   };
 
   const calculateResults = () => {
-    // Placeholder calculations, replace with actual logic
     const timeSaved = formData.searchType === 'Patentability' ? '75%' : '50%';
     const costSaved = formData.searchType === 'FTO' ? '30%' : '20%';
-    const riskReduced = formData.litigations > 5 ? '20%' : '10%';
-    
+    const riskReduced = parseInt(formData.litigations) > 5 ? '20%' : '10%';
+
     setResults({
       timeSaved,
       costSaved,
@@ -41,7 +39,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div>
       <h1>IPRally Value Assessment Tool</h1>
       {!results ? (
         <form onSubmit={handleSubmit}>
@@ -96,4 +94,4 @@ function App() {
   );
 }
 
-export default App;
+export default ValueAssessmentTool;
